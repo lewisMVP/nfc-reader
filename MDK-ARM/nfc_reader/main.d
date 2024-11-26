@@ -28,3 +28,5 @@ nfc_reader\main.o: C:/Users/hungc/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Dr
 nfc_reader\main.o: C:/Users/hungc/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 nfc_reader\main.o: ../Core/Inc/pn532.h
 nfc_reader\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+nfc_reader\main.o: C:/Users/hungc/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
+nfc_reader\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
