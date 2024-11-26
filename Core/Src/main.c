@@ -10,6 +10,7 @@
 #include "main.h"
 #include "pn532.h"
 #include "string.h"
+#include "lcd.h"
 #include "stm32f1xx_hal_uart.h"
 #include <stdio.h>
 

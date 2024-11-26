@@ -26,4 +26,5 @@ nfc_reader\stm32f1xx_it.o: C:/Users/hungc/STM32Cube/Repository/STM32Cube_FW_F1_V
 nfc_reader\stm32f1xx_it.o: C:/Users/hungc/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
 nfc_reader\stm32f1xx_it.o: C:/Users/hungc/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h
 nfc_reader\stm32f1xx_it.o: C:/Users/hungc/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+nfc_reader\stm32f1xx_it.o: C:/Users/hungc/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 nfc_reader\stm32f1xx_it.o: ../Core/Inc/stm32f1xx_it.h
