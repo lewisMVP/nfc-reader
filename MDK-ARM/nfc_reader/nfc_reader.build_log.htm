@@ -28,20 +28,24 @@ Project File Date:  11/27/2024
 *** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'nfc_reader'
 compiling lcd.c...
+lcd.h(36): warning:  #1-D: last line of file ends without a newline
+  #endif // LCD_H
 lcd.c(3): error:  #5: cannot open source input file "i2c.h": No such file or directory
   #include "i2c.h"
-lcd.c: 0 warnings, 1 error
+lcd.c: 1 warning, 1 error
 compiling main.c...
-../Core/Src/main.c(121): warning:  #1-D: last line of file ends without a newline
+../Core/Src/main.c(26): warning:  #223-D: function "SystemClock_Config" declared implicitly
+      SystemClock_Config();
+../Core/Src/main.c(28): warning:  #223-D: function "MX_GPIO_Init" declared implicitly
+      MX_GPIO_Init();
+../Core/Src/main.c(29): warning:  #223-D: function "MX_I2C1_Init" declared implicitly
+      MX_I2C1_Init();
+../Core/Src/main.c(30): warning:  #223-D: function "MX_USART1_UART_Init" declared implicitly
+      MX_USART1_UART_Init();
+../Core/Src/main.c(60): warning:  #1-D: last line of file ends without a newline
   }
-../Core/Src/main.c(32): error:  #114: function "MX_GPIO_Init"  was referenced but not defined
-  static void MX_GPIO_Init(void);
-../Core/Src/main.c(33): error:  #114: function "MX_I2C1_Init"  was referenced but not defined
-  static void MX_I2C1_Init(void);
-../Core/Src/main.c(34): error:  #114: function "MX_USART1_UART_Init"  was referenced but not defined
-  static void MX_USART1_UART_Init(void);
-../Core/Src/main.c: 1 warning, 3 errors
-"nfc_reader\nfc_reader.axf" - 4 Error(s), 1 Warning(s).
+../Core/Src/main.c: 5 warnings, 0 errors
+"nfc_reader\nfc_reader.axf" - 1 Error(s), 6 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -66,7 +70,7 @@ Package Vendor: Keil
    * Component: ARM::CMSIS:CORE:5.4.0
       Include file:  CMSIS\Core\Include\tz_context.h
 Target not created.
-Build Time Elapsed:  00:00:01
+Build Time Elapsed:  00:00:02
 </pre>
 </body>
 </html>

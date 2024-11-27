@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"nfc_reader\startup_stm32f103x6.o"
+"nfc_reader\pn532.o"
+"nfc_reader\main.o"
+"nfc_reader\stm32f1xx_it.o"
+"nfc_reader\stm32f1xx_hal_msp.o"
+"nfc_reader\lcd.o"
+"nfc_reader\stm32f1xx_hal_gpio_ex.o"
+"nfc_reader\stm32f1xx_hal_i2c.o"
+"nfc_reader\stm32f1xx_hal.o"
+"nfc_reader\stm32f1xx_hal_rcc.o"
+"nfc_reader\stm32f1xx_hal_rcc_ex.o"
+"nfc_reader\stm32f1xx_hal_gpio.o"
+"nfc_reader\stm32f1xx_hal_dma.o"
+"nfc_reader\stm32f1xx_hal_cortex.o"
+"nfc_reader\stm32f1xx_hal_pwr.o"
+"nfc_reader\stm32f1xx_hal_flash.o"
+"nfc_reader\stm32f1xx_hal_flash_ex.o"
+"nfc_reader\stm32f1xx_hal_exti.o"
+"nfc_reader\stm32f1xx_hal_tim.o"
+"nfc_reader\stm32f1xx_hal_tim_ex.o"
+"nfc_reader\stm32f1xx_hal_uart.o"
+"nfc_reader\system_stm32f1xx.o"
+--strict --scatter "nfc_reader\nfc_reader.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "nfc_reader.map" -o nfc_reader\nfc_reader.axf
